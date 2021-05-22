@@ -1,11 +1,9 @@
 # Filter-and-Song-suggestion-bot
-In this project, we recognize real images of emotions (Angry, Digusted, Fearful, Happy, Neutral, Sad, Surprised) in order to classify an incoming image as one of seven emotions. After identifying the emotion, the bot then recommends a song that would be suitable for the given emotion. 
+tn this project  we have predefined 7 emotions that an user can have and a song will be played according to the recognised mood of the user in real time.
 
-## Part 1: Identifying emotions
-Emotion identification is done through a pre trained model developed in Keras with Tensorflow.
-Real time face detection is done using OpenCV.
+## Part 1: Identifying emotions.
+Various emotions like  'angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', and  'surprised' is  detected.
 
-## Part 2: Recommending songs
-Stored songs according to different emotions 'angry', 'disgusted', 'fearful', 'happy', 'neutral', 'sad', 'surprised'. 
-Recommend a random song from the list of songs under the emotion given as input.
+## Part 2: Song Recommendation 
+On recognising the mood of the user, a song from the stored playlist is played.
 
